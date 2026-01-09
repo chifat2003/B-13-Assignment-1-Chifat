@@ -146,3 +146,64 @@ i{
     border: 1px solid #30B868;
 
 }
+#notes-section{
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    margin: auto 120px auto 120px ;
+}
+#notes-text{
+    margin: auto 120px 44px 120px;
+}
+#notes-section h1 {
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+#notes-section p, .card p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    padding: 32px 24px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card-img-bg {
+    height: 60px;
+    width: 60px;
+    background-color: #F95555;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+}
+
+.card img {
+    height: 32px;
+    width: 32px;
+}
+
+.card h3 {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: semi-bold;
+    color: #001931;
+    margin: 16px 0 12px 0;
+}
+
