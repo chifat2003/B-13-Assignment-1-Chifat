@@ -23,6 +23,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 32px;
+
 }
 
 #menu li {
@@ -242,8 +243,9 @@ i {
 #second-brain-text ul li {
     display: flex;
     gap: 6px;
-    
+
 }
+
 #brain-title {
     font-family: 'Inter';
     font-size: 48px;
@@ -251,6 +253,7 @@ i {
     color: #30B868;
     margin-top: 16px;
 }
+
 #brain-description {
     font-family: 'Inter';
     font-size: 16px;
@@ -258,9 +261,61 @@ i {
     color: #627382;
     margin-top: 16px;
 }
+
 #brain-sub-title {
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 500;
     color: #30B868;
+}
+
+#early-access {
+    font-family: 'Inter';
+    margin: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: rgb(247, 246, 242, 1);
+    border-radius: 12px;
+}
+
+#early-access-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+#early-access-container button {
+    margin: 0 auto;
+}
+
+#early-access-container h1 {
+    color: rgba(0, 25, 49, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#early-access-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+#ea-li ul {
+    margin-top: 16px;
+    display: inline-flex;
+}
+
+#ea-li ul li {
+    margin-left: 13px;
+    margin-right: 13px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+
+}
+
+#first-msg {
+    list-style-type: none;
 }
