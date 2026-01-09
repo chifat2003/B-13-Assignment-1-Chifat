@@ -1,6 +1,7 @@
-.body{
-    margin: 0;
-    max-width: 1600px;
+html,
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 #navbar {
@@ -8,29 +9,35 @@
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
+    flex-wrap: wrap;
 }
+
 #logo-navbar {
     height: 60px;
     margin-left: 120px;
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
 #menu {
     list-style-type: none;
     display: flex;
     gap: 32px;
 }
+
 #menu li {
     font-family: 'Inter';
     font-weight: medium;
     font-size: 16px;
     line-height: 20px;
 }
+
 .menu-link {
     text-decoration: none;
     color: #000000;
 }
-.btn{
+
+.btn {
     margin-right: 120px;
     padding: 12.5px 16px;
     background-color: #30B868;
@@ -41,4 +48,101 @@
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+    display: inline-flex;
+    gap: 8px;
+}
+
+.btn:hover {
+    background-color: #28a75a;
+}
+
+#menu li:hover {
+    transform: scale(1.1);
+    text-shadow: gray 0px 2px 2px;
+}
+
+#hero-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: url("../assets/hero-bg.png"), rgba(0, 25, 49, 0.8);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.hero-text {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    width: 48%;
+    max-width: 1360px;
+    margin: 115px auto 180px auto;
+}
+
+
+#hero-badge {
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #30B868;
+    display: inline-block;
+    padding: 8px 12px 8px 20px; 
+    border-radius: 20px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+/* Took help form gpt */
+#hero-badge::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #30B868;
+    border-radius: 50%;
+}
+
+#hero-title {
+    font-size: 72px;
+font-weight: 700;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+#color {
+    color: #30B868;
+}
+
+#hero-sub-title {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.btn-hero {
+    padding: 12px 16px 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-family: 'Inter';
+    cursor: pointer;
+}
+i{
+    margin-right: 8px;
+}
+.btn-hero:hover {
+    background-color: #ffffff;
+    color: #30B868;
+    border: 1px solid #30B868;
+
 }
