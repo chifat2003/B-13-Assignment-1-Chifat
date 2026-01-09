@@ -54,7 +54,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #28a75a;
+    background-color: #227a45;
 }
 
 #menu li:hover {
@@ -271,7 +271,7 @@ i {
 
 #early-access {
     font-family: 'Inter';
-    margin: 120px;
+    margin: 120px 120px 0px 120px;
     padding-top: 80px;
     padding-bottom: 80px;
     text-align: center;
@@ -318,4 +318,46 @@ i {
 
 #first-msg {
     list-style-type: none;
+}
+
+footer {
+    padding-top: 120px;
+    background-color: #001931;
+    text-align: center;
+}
+
+#footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 120px 120px 120px;
+    height: 64px;
+}
+
+.social-links {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.social-links a i {
+    font-size: 24px;
+    color: white;
+    height: 20px;
+    gap: 16px;
+}
+
+hr {
+    border: 1px solid #627382;
+    margin: 0px 120px 24px 120px;
+}
+
+#copyright {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    background-color: #001931;
 }
